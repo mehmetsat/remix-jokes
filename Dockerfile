@@ -54,3 +54,4 @@ COPY --from=build /app/public /app/public
 ADD . .
 
 CMD ["npm", "run", "start"]
+EXPOSE 8080
